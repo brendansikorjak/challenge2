@@ -1,0 +1,94 @@
+*{
+    background-color: lightblue;
+    color: blue;
+    padding: 0;
+}
+
+header{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    font-size: 200%;
+}
+
+h1{
+    color: navy;
+}
+
+.tabs{
+    display: inline;
+    text-align: center;
+    list-style-type: none;
+    font-size: 25px;
+    color: navy;
+}
+
+li{
+    display: inline;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.heading{
+    text-align: center;
+    font-size: 200%;
+    color: navy;
+}
+
+.self-portrait{
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-me{
+    text-align: center;
+    font-size: 125%;
+}
+
+.content{
+    text-align: center;
+    font-size: 150%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.content-card{
+    border: solid navy;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-width: 33%;
+    min-height: fit-content;
+}
+
+.content-card-heading{
+    text-decoration: line-through;
+}
+
+/* .project{
+    border: solid black;   
+} */
+
+.contact-me{
+    text-align: center;
+    font-size: 115%;
+}
+
+a:hover{
+    color: white;
+}
+
+a:active{
+    color: navy;
+}
